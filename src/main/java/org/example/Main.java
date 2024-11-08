@@ -7,8 +7,8 @@ import java.util.Map;
 public class Main {
     public static void main(String[] args) {
         Map<String, String> nameMap = new HashMap<>();
-        nameMap.put("name", "YourName");
-        nameMap.put("lastName", "YourLastName");
+        nameMap.put("name", "Ivan");
+        nameMap.put("lastName", "Sinelnyk");
 
         Gson gson = new Gson();
         String json = gson.toJson(nameMap);
